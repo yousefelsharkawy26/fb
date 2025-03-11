@@ -39,7 +39,7 @@ app.options('*', (req, res) => {
 
 // أضف هذا المسار للصفحة الرئيسية
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
+    res.send("Hello From Joo");
 });
 
 // راوت لتسجيل المستخدم
