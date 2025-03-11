@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #4f4f55;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(115,3,35);
+    background: linear-gradient(90deg, rgba(115,3,35,0.17923666048450626) 0%, rgba(0,212,255,0.15962881734725143) 35%, rgba(255,255,255,1) 100%);
+}
+
+.back {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.back i {
+    float: right;
+}
+
+.language {
+    margin: 30px;
+    font-size: small;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.logo i {
+    font-size: 70px;
+    color: rgb(52, 52, 225);
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-group button,
+.form-group  input {
+    width: 90%;
+    margin: 5px;
+}
+
+.form-group  input {
+    padding: 20px 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px #eee solid;
+    font-weight: 400;
+    font-size: 1.01rem;
+}
+
+.form-group button {
+    border: none;
+    border-radius: 30px;
+    padding: 14px;
+    background-color: rgb(52, 52, 225);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.warning {
+    margin: 10px 0 60px 0 ;
+}
+
+.new-account {
+    border-radius: 30px;
+    padding: 14px;
+    background-color: white;
+    color: rgb(52, 52, 225);
+    border: 2px solid;
+    font-weight: 500;
+    cursor: pointer;
+    width: 90%;
+}
+
+.meta-logo {
+    margin: 8px;
+}
